@@ -1,0 +1,8 @@
+#login {
+    background: url("../../assets/bj.jpg") no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+}

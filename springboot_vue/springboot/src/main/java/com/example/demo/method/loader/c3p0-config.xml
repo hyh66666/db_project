@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <property name="driverClass">org.postgresql.Driver</property>
+        <property name="jdbcUrl">jdbc:postgresql://localhost/project2</property>
+        <property name="user">test</property>
+        <property name="password">huang520</property>
+        <!-- initial size of connection -->
+        <property name="initialPoolSize">10</property>
+        <!-- Max idle time，unit is Second -->
+        <property name="maxIdleTime">30</property>
+        <!-- Max size of connection in pool -->
+        <property name="maxPoolSize">100</property>
+        <!-- Min size of connection in pool -->
+        <property name="minPoolSize">8</property>
+    </default-config>
+</c3p0-config>
